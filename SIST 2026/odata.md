@@ -59,19 +59,19 @@
  # Services
 
 ### infos
- [GET v1.1/infos](https://sensorthings.umrsas.inrae.fr/test/v1.1/infos) ✔️
+ [GET v1.1/infos](https://sensorthings.umrsas.inrae.fr/test/v1.1/infos)
 
 ### Etat
- [GET v1.1/state](https://sensorthings.umrsas.inrae.fr/test/v1.1/state) ✔️
+ [GET v1.1/state](https://sensorthings.umrsas.inrae.fr/test/v1.1/state)
    
 ### Etats
- [GET v1.1/states](https://sensorthings.umrsas.inrae.fr/test/v1.1/states) ✔️
+ [GET v1.1/states](https://sensorthings.umrsas.inrae.fr/test/v1.1/states)
 
 ### Tous les servics disponibles
- [GET v1.1/Services](https://sensorthings.umrsas.inrae.fr/test/v1.1/Services) ✔️
+ [GET v1.1/Services](https://sensorthings.umrsas.inrae.fr/test/v1.1/Services)
 
 ### Etat d'un service
- [GET v1.1/Services(1)](https://sensorthings.umrsas.inrae.fr/test/v1.1/Services(1)) ✔️
+ [GET v1.1/Services(1)](https://sensorthings.umrsas.inrae.fr/test/v1.1/Services(1))
  
 ### Création d'un service
 ### **Services**
