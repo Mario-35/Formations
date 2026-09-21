@@ -49,7 +49,7 @@ Permet d'obtenir des infos sur l'api elle meme ainsi que la version de postgresS
 }
 ```
 
-https://sensorthings.umrsas.inrae.fr/test/vstate état de l'API
+https://sensorthings.umrsas.inrae.fr/test/state état de l'API
 - start : Demarrage en cours
 - createDb : Creation de base en cours
 - restart : Redemarrage en cours
