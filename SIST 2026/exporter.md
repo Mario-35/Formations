@@ -4,7 +4,7 @@
 
 STEAN offre la possibilité d’exporter en csv en utilisant la puissance de PostgreSQL et de la fonction COPY. Une mécanique de streaming csv a été développée afin de pouvoir importer de grande masse de csv sans avoir à le stocker sur le serveur de façon très rapide et ce sans limite de taille.
 
-http://rootApi/export 
+https://sensorthings.umrsas.inrae.fr/test/export 
 
 Cette fonctionnalité permet d'exporter une structure complete (sans les observations) au format JSON
 

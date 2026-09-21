@@ -14,14 +14,14 @@ Cette clé est mise en place lors de la création du service
 
 ## Demander un token
 
-POST http://rootApi/Login  username et password
+POST https://sensorthings.umrsas.inrae.fr/test/Login  username et password
 
 ### Dans le corps (Body)
 
 ```JS
 const data = { "username": "example", "password": "surlepostit" };
 
-fetch('http://rootApi/Login', {
+fetch('https://sensorthings.umrsas.inrae.fr/test/Login', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
@@ -40,7 +40,7 @@ fetch('http://rootApi/Login', {
 ```PYTHON
 import requests
 payload = { "username": "example", "password": "surlepostit" }
-r = requests.post('http://rootApi/Login', data=json.dumps(payload))
+r = requests.post('https://sensorthings.umrsas.inrae.fr/test/Login', data=json.dumps(payload))
 print (r.text)
 ```
 ### Dans les params
@@ -48,7 +48,7 @@ print (r.text)
 ```JS
 const data = { username: 'example', password: 'surlepostit' };
 
-fetch('http://rootApi/Login', {
+fetch('https://sensorthings.umrsas.inrae.fr/test/Login', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
@@ -68,7 +68,7 @@ fetch('http://rootApi/Login', {
 ```PYTHON
 import requests
 payload = { "username": "example", "password": "surlepostit" }
-r = requests.post('http://rootApi/Login', params=payload)
+r = requests.post('https://sensorthings.umrsas.inrae.fr/test/Login', params=payload)
 print (r.text)
 ```
 

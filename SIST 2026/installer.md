@@ -28,9 +28,9 @@ une fois l'installation terminé il ne rest plus qu'à lancer :
 
 ## Première Utilisation
 
-http://rootApi/help la documentation de l'API
+https://sensorthings.umrsas.inrae.fr/test/help la documentation de l'API
 
-http://rootApi/infos infos sur l'API
+https://sensorthings.umrsas.inrae.fr/test/infos infos sur l'API
 
 Permet d'obtenir des infos sur l'api elle meme ainsi que la version de postgresSql et de posGis utilisé
 
@@ -49,17 +49,17 @@ Permet d'obtenir des infos sur l'api elle meme ainsi que la version de postgresS
 }
 ```
 
-http://rootApi/state état de l'API
+https://sensorthings.umrsas.inrae.fr/test/vstate état de l'API
 - start : Demarrage en cours
 - createDb : Creation de base en cours
 - restart : Redemarrage en cours
 - normal : etat normal 
 - clean : En cours de nettoyage
 - import : En cours d'importation de données
-- maintenance : Maintenance en cours (http://rootApi/maintenance=true)
+- maintenance : Maintenance en cours (https://sensorthings.umrsas.inrae.fr/test/maintenance=true)
 
 
-http://rootApi/admin panneau d'administration
+https://sensorthings.umrsas.inrae.fr/test/admin panneau d'administration
 
 Afin d'accéder au panneau d'administration vous devez entre vos identifiants PostgreSQL (si PostgreSQL n'était pas installé le script le fait avec comme mot de passe par défaut : **postgres**)
 
@@ -105,7 +105,7 @@ saisissez un nom et le JSON suivant est poprosé.
 
 reste plus qu'à cliquer sur Create service afin de créer le service, a la fin de la creation l'API redemarre (c'est extremement rapide) et redemande l'acces, le service ainsi que la base de données est crée.
 
-http://rootApi/nouveau/v1.1/infos infos sur le service
+https://sensorthings.umrsas.inrae.fr/test/v1.1/infos infos sur le service
 
 ### Les extensions :
 

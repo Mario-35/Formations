@@ -4,13 +4,13 @@
 
 Lorsque l'on utilise : 
 
-http://rootApi/states
+https://sensorthings.umrsas.inrae.fr/test/states
 ou
-http://rootApi/state/ServiceName/states
+https://sensorthings.umrsas.inrae.fr/test/state/ServiceName/states
 
 Affiche l'état de tous les services
 
-http://rootApi/state/ServiceName/state
+https://sensorthings.umrsas.inrae.fr/test/state/ServiceName/state
 
 Affiche l'état du service
 

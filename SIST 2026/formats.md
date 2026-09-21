@@ -11,37 +11,37 @@
 
 ## <a name="json"></a>json :
 
-http://rootApi/Things Le format natif par default de l'API
+https://sensorthings.umrsas.inrae.fr/test/Things Le format natif par default de l'API
 
 ```JSON
 {
   "@iot.count": 2,
   "value": [
     {
-      "@iot.selfLink": "http://rootApi/Things(1)",
+      "@iot.selfLink": "https://sensorthings.umrsas.inrae.fr/test/Things(1)",
       "@iot.id": 1,
       "name": "Outlet Exutoire",
       "description": "Exutoire du bassin versant de Kervidy",
       "properties": {
         "image": ""
       },
-      "Locations@iot.navigationLink": "http://rootApi/Things(1)/Locations",
-      "HistoricalLocations@iot.navigationLink": "http://rootApi/Things(1)/HistoricalLocations",
-      "Datastreams@iot.navigationLink": "http://rootApi/Things(1)/Datastreams",
-      "MultiDatastreams@iot.navigationLink": "http://rootApi/Things(1)/MultiDatastreams"
+      "Locations@iot.navigationLink": "https://sensorthings.umrsas.inrae.fr/test/Things(1)/Locations",
+      "HistoricalLocations@iot.navigationLink": "https://sensorthings.umrsas.inrae.fr/test/Things(1)/HistoricalLocations",
+      "Datastreams@iot.navigationLink": "https://sensorthings.umrsas.inrae.fr/test/Things(1)/Datastreams",
+      "MultiDatastreams@iot.navigationLink": "https://sensorthings.umrsas.inrae.fr/test/Things(1)/MultiDatastreams"
     },
     {
-      "@iot.selfLink": "http://rootApi/Things(2)",
+      "@iot.selfLink": "https://sensorthings.umrsas.inrae.fr/test/Things(2)",
       "@iot.id": 2,
       "name": "Station Meteo Toullo",
       "description": "Station meteorologique du bassin versant de Naizin",
       "properties": {
         "image": ""
       },
-      "Locations@iot.navigationLink": "http://rootApi/Things(2)/Locations",
-      "HistoricalLocations@iot.navigationLink": "http://rootApi/Things(2)/HistoricalLocations",
-      "Datastreams@iot.navigationLink": "http://rootApi/Things(2)/Datastreams",
-      "MultiDatastreams@iot.navigationLink": "http://rootApi/Things(2)/MultiDatastreams"
+      "Locations@iot.navigationLink": "https://sensorthings.umrsas.inrae.fr/test/Things(2)/Locations",
+      "HistoricalLocations@iot.navigationLink": "https://sensorthings.umrsas.inrae.fr/test/Things(2)/HistoricalLocations",
+      "Datastreams@iot.navigationLink": "https://sensorthings.umrsas.inrae.fr/test/Things(2)/Datastreams",
+      "MultiDatastreams@iot.navigationLink": "https://sensorthings.umrsas.inrae.fr/test/Things(2)/MultiDatastreams"
     }
   ]
 }
@@ -51,7 +51,7 @@ http://rootApi/Things Le format natif par default de l'API
 
 Le format CSV qui dans stean est totalement gérér c'est a dire qu'un appel de type :
 
-http://rootApi/Things?$resultFormat=csv
+https://sensorthings.umrsas.inrae.fr/test/Things?$resultFormat=csv
 
 ```CSV
 @iot.id;name;description;properties
@@ -59,19 +59,19 @@ http://rootApi/Things?$resultFormat=csv
 2;Station Meteo Toullo;Station meteorologique du bassin versant de Naizin;"{""image"": """"}"
 ```
 
-http://rootApi/Things(1)/Locations?$resultFormat=csv
+https://sensorthings.umrsas.inrae.fr/test/Things(1)/Locations?$resultFormat=csv
 
-http://rootApi/Things(1)/Locations?$resultFormat=csv
+https://sensorthings.umrsas.inrae.fr/test/Things(1)/Locations?$resultFormat=csv
 
 sont possible
 
 ## <a name="txt"></a>txt :
 
-http://rootApi/Things?$resultFormat=txt renvoi le resultat au format texte
+https://sensorthings.umrsas.inrae.fr/test/Things?$resultFormat=txt renvoi le resultat au format texte
 
 ## <a name="dataarray"></a>dataarray :
 
-http://rootApi/Things?$resultFormat=dataArray renvoi le resultat au format dataArray et pas seulement pour les observations.
+https://sensorthings.umrsas.inrae.fr/test/Things?$resultFormat=dataArray renvoi le resultat au format dataArray et pas seulement pour les observations.
 
 ```JSON
 {
@@ -105,7 +105,7 @@ http://rootApi/Things?$resultFormat=dataArray renvoi le resultat au format dataA
 
 ## <a name="geojson"></a>geojson :
 
-http://rootApi/Locations?$resultFormat=GeoJSON
+https://sensorthings.umrsas.inrae.fr/test/Locations?$resultFormat=GeoJSON
 
 Si l'entité selectionné contiens une proprieté GeoJSON le resultat retourne toutes le valeurs GeoJSON
 
@@ -171,7 +171,7 @@ https://rootApi/MultiDatastreams(3,4)/Observations?$resultFormat=graph
 ![graph](../images/graphMultiDatastreamSuperpose.jpg "graph")
 
 Enfin un petit hack non present dans le modele mais dans odata qui est autorisé dans STEAN :
-http://rootApi/Datastreams(1)/Observations?$resultFormat=graph&$filter=phenomenonTime gt now(- INTERVAL '10 day')
+https://sensorthings.umrsas.inrae.fr/test/Datastreams(1)/Observations?$resultFormat=graph&$filter=phenomenonTime gt now(- INTERVAL '10 day')
 
 permet de voir les capteurs sur un graph durant les 5 dernier jours ce qui est entre parenthese du now est un interval au format [postgresSQL](https://docs.postgresql.fr/13/functions-datetime.html#FUNCTIONS-DATETIME-TABLE)
 

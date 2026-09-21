@@ -8,7 +8,7 @@ Cette fonctionnalité est utilisée à travers le CreateObservations ce qui rend
 
 Creation d'un flux complet :
 
-http://rootApi/Datastreams 
+https://sensorthings.umrsas.inrae.fr/test/Datastreams 
 
 ```JSON
 {
@@ -64,7 +64,7 @@ TOA5;CR6;15502;;;;;;;;;
 02/05/2000 10:00;13.2;20.2;16.2;NAN;46.2;NAN;-0.002;19.2;2;6999;1
 ```
 
-http://rootApi/CreateObservations 
+https://sensorthings.umrsas.inrae.fr/test/CreateObservations 
 
 ```JSON
 {
@@ -102,12 +102,12 @@ STEAN vous offre la possibilité de le faire via le Query
 
 ## Exportation :
 
-http://rootApi/Things?$resultFormat=csv exporte toutes les Things au format xml
-http://rootApi/Datastreams(1)/Observations?$resultFormat=csv=csv exporte toutes les observations du datastream 1 au format xml
+https://sensorthings.umrsas.inrae.fr/test/Things?$resultFormat=csv exporte toutes les Things au format xml
+https://sensorthings.umrsas.inrae.fr/test/Datastreams(1)/Observations?$resultFormat=csv=csv exporte toutes les observations du datastream 1 au format xml
 
 et ce sans limite de taille grace au stream csv.
 
-http://rootApi/export 
+https://sensorthings.umrsas.inrae.fr/test/export 
 
 
 Cette fonctionnalité permet d'exporter une structure complete (sans les observations) au format JSON

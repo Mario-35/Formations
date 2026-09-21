@@ -25,7 +25,7 @@ Une entité **Lora** :
 | Properties | Propriétés |
 | deveui | numéro d'identification unique du capteur |
 
-La mécanique est très simple quand l'API recoi un POST http://rootApi/payload :
+La mécanique est très simple quand l'API recoi un POST https://sensorthings.umrsas.inrae.fr/test/payload :
 L’API recherche le capteur via son deveui décode le payload envoyé grâce au décodeur associé et l'ajoute aux observations pour le(s) datastream(s) ou le multiDatastream associé à l'entité Lora.
 
 ### Créer un décodeur :
@@ -154,9 +154,9 @@ L'entité **Lora** permet d'ssocier un décodeur à un datastream ou à un multi
 ```
 
 Vous avez la possibilité de rechercher les capteurs via leur deveui et pas pas que par l'id :
-http://rootApi/Loras(2CF7F1203150012A)
+https://sensorthings.umrsas.inrae.fr/test/Loras(2CF7F1203150012A)
 
-http://rootApi/payload POST
+https://sensorthings.umrsas.inrae.fr/test/payload POST
 ```JSON
 {
     "deveui": "2CF7F1202520017E",
