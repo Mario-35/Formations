@@ -2,7 +2,7 @@
 
 ## multiDatastream
 
-![STA](../assets/images/drawio_STA_V1.1multiDatastream.jpg "STA")
+![STA](../images/drawio_STA_V1.1multiDatastream.jpg "STA")
 
 MultiDatastream permet de stocker des observations un peu plus complexe. Il est tres approprié dans le cas ou un capteur enregistre la temperature et le niveau par exemple les deux valeurs peuvent être stocker dans la même observation ce qui est le cas physiquement.
 

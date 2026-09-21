@@ -9,13 +9,13 @@ curl -fsSL ../scripts/stean.sh -o stean.sh && chmod +x stean.sh && ./stean.sh
 
 Lance le script qui installera NodeJS, PostgreSQL / PostGis, PM2 et enfin créera le script run.sh permettant de lancer STEAN.
 
-![nodejs](../assets/images/nodejs.png "nodejs")
-![postgresPostGis](../assets/images/postgresPostGis.png "postgresPostGis")
-![pm2](../assets/images/pm2.jpg "pm2")
+![nodejs](../images/nodejs.png "nodejs")
+![postgresPostGis](../images/postgresPostGis.png "postgresPostGis")
+![pm2](../images/pm2.jpg "pm2")
 
 La mise à jour ce fait en lançant le script à nouveau qui sera capable de détecter ce qui est déjà installé.
 
-![install](../assets/images/install.gif "install")
+![install](../images/install.gif "install")
 
 
 une fois l'installation terminé il ne rest plus qu'à lancer :
@@ -23,7 +23,7 @@ une fois l'installation terminé il ne rest plus qu'à lancer :
 ./run.sh
 ```
 
-![run](../assets/images/runSh.jpg "run")
+![run](../images/runSh.jpg "run")
 
 
 ## Première Utilisation
@@ -63,11 +63,11 @@ http://rootApi/admin panneau d'administration
 
 Afin d'accéder au panneau d'administration vous devez entre vos identifiants PostgreSQL (si PostgreSQL n'était pas installé le script le fait avec comme mot de passe par défaut : **postgres**)
 
-![firstStart](../assets/images/firstStart.jpg "first Start")
+![firstStart](../images/firstStart.jpg "first Start")
 
 Vous arrivez sur l’écran suivant :
 
-![admin](../assets/images/admin.jpg "admin")
+![admin](../images/admin.jpg "admin")
 
 ## Création d'un service
 
@@ -176,7 +176,7 @@ Les options peuvent être activé ou désactivés car elle n'impacte pas la base
 
 lorsque des services sont disponibles l'écran suivant est disponible :
 
-![admin](../assets/images/admin_options.jpg "admin")
+![admin](../images/admin_options.jpg "admin")
 
 Vous avez la possibilité d'activer ou non les options ou les paramètres tels que la pagination, en cliquant sur la barre du nom les informations son dupliqués afin de créer un service identique (en y changeant le nom bien sûr) en passant la souris sur le titre la croix rouge apparait permettant de supprimer le service (y compris les données).
 

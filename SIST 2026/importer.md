@@ -98,7 +98,7 @@ Si le csv contiens plusieurs colonnes il est tout à fait possible de :
 ```
 STEAN vous offre la possibilité de le faire via le Query
 
-![import](../assets/images/import_datastream.jpg "import")
+![import](../images/import_datastream.jpg "import")
 
 ## Exportation :
 

@@ -16,7 +16,7 @@
 
 ## MODELE
 
-![STA](../assets/images/drawio_STA_V1.1.jpg "STA")
+![STA](../images/drawio_STA_V1.1.jpg "STA")
 
 
 

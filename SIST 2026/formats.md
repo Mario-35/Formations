@@ -137,7 +137,7 @@ Si l'entité selectionné contiens une proprieté GeoJSON le resultat retourne t
 
 si vous le faites dans le Query vous avez une icone qui apparait permetant d'ouvrir les points dans geojson.io permetant ainsi de verifier les points geographiques :
 
-![geoJson](../assets/images/geoJson.jpg "geoJson")
+![geoJson](../images/geoJson.jpg "geoJson")
 
 
 ## <a name="sql"></a>sql :
@@ -151,11 +151,11 @@ Renvoi le resultat sous forme de graph avec une generation des données coté se
 
 https://rootApi/Datastreams(1)/Observations?$resultFormat=graph permet d'avoir le graph du datastream 1
 
-![graph](../assets/images/graph.jpg "graph") 
+![graph](../images/graph.jpg "graph") 
 
 https://rootApi/Datastreams(3:9)/Observations?$resultFormat=graph permet d'avoir en superposition (les datastreams 1 **à** 9)
 
-![graph](../assets/images/graphSuperpose.jpg "graph")
+![graph](../images/graphSuperpose.jpg "graph")
 
 https://rootApi/Datastreams(3,9)/Observations?$resultFormat=graph permet d'avoir en superposition (les datastreams 1 **et** 9)
 
@@ -163,12 +163,12 @@ bien évidement cela marche pour le multiDatasream :
 
 https://rootApi/MultiDatastreams(3)/Observations?$resultFormat=graph
 
-![graph](../assets/images/graphMultiDatastream.jpg "graph")
+![graph](../images/graphMultiDatastream.jpg "graph")
 
 et aussi en superposition :
 https://rootApi/MultiDatastreams(3,4)/Observations?$resultFormat=graph
 
-![graph](../assets/images/graphMultiDatastreamSuperpose.jpg "graph")
+![graph](../images/graphMultiDatastreamSuperpose.jpg "graph")
 
 Enfin un petit hack non present dans le modele mais dans odata qui est autorisé dans STEAN :
 http://rootApi/Datastreams(1)/Observations?$resultFormat=graph&$filter=phenomenonTime gt now(- INTERVAL '10 day')

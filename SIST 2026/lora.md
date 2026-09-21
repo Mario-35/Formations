@@ -4,7 +4,7 @@
 
 L'extension **Lora** ajoute deux entitées au modele de facon transparente :
 
-![lora](../assets/images/drawio_STA_V1.1_Lora.jpg "lora")
+![lora](../images/drawio_STA_V1.1_Lora.jpg "lora")
 
 Une entité **Decoder** :
 
@@ -133,7 +133,7 @@ Généralement le code javascript est fourni par le constructeur et souvent pré
 Le Query vous permet de tester un payload pour un ou tous les décodeurs : 
 En choisissant l'entité Decoders une entrée payload apparait saisissez votre payload puis cliquer sur le bouton Query et le test se lancera.
 
-![payload](../assets/images/payload.jpg "payload")
+![payload](../images/payload.jpg "payload")
 
 ### Créer un Lora :
 
