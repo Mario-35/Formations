@@ -3,7 +3,8 @@
 # CreateObservations
 
    213. Add datastream
- [POST v1.1/CreateObservations](https://sensorthings.umrsas.inrae.fr/agrhys/v1.1/CreateObservations)
+
+**POST** /v1.1/CreateObservations
 ```js
 {
   "Datastream": { "@iot.id": 1 },
