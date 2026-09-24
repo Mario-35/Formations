@@ -106,7 +106,7 @@ https://sensorthings.umrsas.inrae.fr/test/v1.1/Things?$resultFormat=dataArray re
 
 ## <a name="geojson"></a>geojson :
 
-https://sensorthings.umrsas.inrae.fr/test/v1.1/Locations?$resultFormat=GeoJSON
+### ![GET](../images/get.png) https://sensorthings.umrsas.inrae.fr/test/v1.1/Locations?$resultFormat=GeoJSON
 
 Si l'entité selectionné contiens une proprieté GeoJSON le resultat retourne toutes le valeurs GeoJSON
 
