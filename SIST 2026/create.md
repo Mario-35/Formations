@@ -89,7 +89,7 @@
 
 ### La même chose en une opération
 
-**POST** [/v1.1/Things]
+**POST** [/v1.1/Things](https://sensorthings.umrsas.inrae.fr/test/v1.1/Things)
 ```JSON
 {
   "name": "Atelier SIST 2026",
