@@ -26,7 +26,7 @@ STEAN gère parfaitement le multidatastream et en assoupli l'utilisation :
 ```
 
 - Deux mots clés non présent dans la norme permet d'afficher les propriétés du result des observations :
-http://localhost:8029/test/v1.1/MultiDatastreams(1)/Observations
+**GET** /v1.1/MultiDatastreams(1)/Observations
 
 voila la version classique et donc compatible avec tous les clients STA
 
@@ -56,7 +56,7 @@ voila la version classique et donc compatible avec tous les clients STA
 
 
 - Voila une des version enhanced de STEAN afin d'afficher le result avec ses propriétés avec **valuesKeys** :
-http://localhost:8029/test/v1.1/MultiDatastreams(1)/Observations?$valuesKeys=true
+**GET** /v1.1/MultiDatastreams(1)/Observations?$valuesKeys=true
 
 ```JSON
 {
@@ -83,7 +83,7 @@ http://localhost:8029/test/v1.1/MultiDatastreams(1)/Observations?$valuesKeys=tru
 ```
 
 - Ainsi que la version avec les propriétés du result dans le corps du retour avec **splitResult=all** :
-http://localhost:8029/test/v1.1/MultiDatastreams(1)/Observations?$splitResult=all
+**GET** /v1.1/MultiDatastreams(1)/Observations?$splitResult=all
 
 ```JSON
 {
@@ -107,8 +107,7 @@ http://localhost:8029/test/v1.1/MultiDatastreams(1)/Observations?$splitResult=al
 }
 ```
 - Enfin il est possible de préciser une clé **splitResult="Unit one of classic"** afin d'avoir un retour "result".
-http://localhost:8029/test/v1.1/MultiDatastreams(1)/Observations?$debug=true&$splitResult=%22Unit%20one%20of%20classic%22
-
+**GET** /v1.1/MultiDatastreams(1)/Observations?$debug=true&$splitResult=%22Unit%20one%20of%20classic%22
 
 ```JSON
 {
