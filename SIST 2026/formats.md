@@ -174,11 +174,9 @@ et aussi en superposition :
 
 Enfin un petit hack non present dans le modele mais dans odata qui est autorisé dans STEAN :
 
-**GET** https://sensorthings.umrsas.inrae.fr/test/v1.1/Datastreams(1)/Observations?$resultFormat=graph&$filter=phenomenonTime gt now(- INTERVAL '10 day')
+**GET** https://sensorthings.umrsas.inrae.fr/test/v1.1/Datastreams(1)/Observations?$resultFormat=graph&$filter=phenomenonTime%20gt%20now(-%20INTERVAL%20'10%20day')
 
-permet de voir les capteurs sur un graph durant les 5 dernier jours ce qui est entre parenthese du now est un interval au format postgresSQL
-
-**GET** https://docs.postgresql.fr/13/functions-datetime.html#FUNCTIONS-DATETIME-TABLE
+permet de voir les capteurs sur un graph durant les 5 dernier jours ce qui est entre parenthese du now est un interval au format  [postgresSQL](https://docs.postgresql.fr/13/functions-datetime.html#FUNCTIONS-DATETIME-TABLE)
 
 ## <a name="graphdatas"></a>graphdatas :
 
