@@ -52,7 +52,7 @@ Le format natif par default de l'API
 
 Le format CSV qui dans stean est totalement gérér c'est a dire qu'un appel de type :
 
-https://sensorthings.umrsas.inrae.fr/test/v1.1/Things?$resultFormat=csv
+**GET** https://sensorthings.umrsas.inrae.fr/test/v1.1/Things?$resultFormat=csv
 
 ```CSV
 @iot.id;name;description;properties
@@ -60,9 +60,9 @@ https://sensorthings.umrsas.inrae.fr/test/v1.1/Things?$resultFormat=csv
 2;Station Meteo Toullo;Station meteorologique du bassin versant de Naizin;"{""image"": """"}"
 ```
 
-https://sensorthings.umrsas.inrae.fr/test/v1.1/Things(1)/Locations?$resultFormat=csv
+**GET** https://sensorthings.umrsas.inrae.fr/test/v1.1/Things(1)/Locations?$resultFormat=csv
 
-https://sensorthings.umrsas.inrae.fr/test/v1.1/Things(1)/Locations?$resultFormat=csv
+**GET** https://sensorthings.umrsas.inrae.fr/test/v1.1/Things(1)/Locations?$resultFormat=csv
 
 sont possible
 
@@ -106,7 +106,7 @@ https://sensorthings.umrsas.inrae.fr/test/v1.1/Things?$resultFormat=dataArray re
 
 ## <a name="geojson"></a>geojson :
 
-### ![GET](../images/get.png) https://sensorthings.umrsas.inrae.fr/test/v1.1/Locations?$resultFormat=GeoJSON
+**GET** https://sensorthings.umrsas.inrae.fr/test/v1.1/Locations?$resultFormat=GeoJSON
 
 Si l'entité selectionné contiens une proprieté GeoJSON le resultat retourne toutes le valeurs GeoJSON
 
@@ -150,19 +150,19 @@ Renvoi la requête SQL généré par la requête, cette option a un intérêt un
 
 Renvoi le resultat sous forme de graph avec une generation des données coté serveur donnant ainsi une rapidite d'affichage tres poussé
 
-https://sensorthings.umrsas.inrae.fr/tests/v1.1/Datastreams(1)/Observations?$resultFormat=graph permet d'avoir le graph du datastream 1
+**GET** https://sensorthings.umrsas.inrae.fr/tests/v1.1/Datastreams(1)/Observations?$resultFormat=graph permet d'avoir le graph du datastream 1
 
 ![graph](../images/graph.jpg "graph") 
 
-https://sensorthings.umrsas.inrae.fr/tests/v1.1/Datastreams(3:9)/Observations?$resultFormat=graph permet d'avoir en superposition (les datastreams 1 **à** 9)
+**GET** https://sensorthings.umrsas.inrae.fr/tests/v1.1/Datastreams(3:9)/Observations?$resultFormat=graph permet d'avoir en superposition (les datastreams 1 **à** 9)
 
 ![graph](../images/graphSuperpose.jpg "graph")
 
-https://sensorthings.umrsas.inrae.fr/tests/v1.1/Datastreams(3,9)/Observations?$resultFormat=graph permet d'avoir en superposition (les datastreams 1 **et** 9)
+**GET** https://sensorthings.umrsas.inrae.fr/tests/v1.1/Datastreams(3,9)/Observations?$resultFormat=graph permet d'avoir en superposition (les datastreams 1 **et** 9)
 
 bien évidement cela marche pour le multiDatasream :
 
-https://sensorthings.umrsas.inrae.fr/tests/v1.1/MultiDatastreams(3)/Observations?$resultFormat=graph
+**GET** https://sensorthings.umrsas.inrae.fr/tests/v1.1/MultiDatastreams(3)/Observations?$resultFormat=graph
 
 ![graph](../images/graphMultiDatastream.jpg "graph")
 
@@ -172,7 +172,7 @@ https://sensorthings.umrsas.inrae.fr/tests/v1.1/MultiDatastreams(3,4)/Observatio
 ![graph](../images/graphMultiDatastreamSuperpose.jpg "graph")
 
 Enfin un petit hack non present dans le modele mais dans odata qui est autorisé dans STEAN :
-https://sensorthings.umrsas.inrae.fr/test/v1.1/Datastreams(1)/Observations?$resultFormat=graph&$filter=phenomenonTime gt now(- INTERVAL '10 day')
+**GET** https://sensorthings.umrsas.inrae.fr/test/v1.1/Datastreams(1)/Observations?$resultFormat=graph&$filter=phenomenonTime gt now(- INTERVAL '10 day')
 
 permet de voir les capteurs sur un graph durant les 5 dernier jours ce qui est entre parenthese du now est un interval au format [postgresSQL](https://docs.postgresql.fr/13/functions-datetime.html#FUNCTIONS-DATETIME-TABLE)
 
