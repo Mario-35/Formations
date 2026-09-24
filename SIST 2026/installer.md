@@ -59,7 +59,7 @@ Permet d'obtenir des infos sur l'api elle meme ainsi que la version de postgresS
 - maintenance : Maintenance en cours (https://sensorthings.umrsas.inrae.fr/test/maintenance=true)
 
 
-https://sensorthings.umrsas.inrae.fr/test/admin panneau d'administration
+**GET** https://sensorthings.umrsas.inrae.fr/test/admin panneau d'administration
 
 Afin d'accéder au panneau d'administration vous devez entre vos identifiants PostgreSQL (si PostgreSQL n'était pas installé le script le fait avec comme mot de passe par défaut : **postgres**)
 
@@ -105,7 +105,7 @@ saisissez un nom et le JSON suivant est poprosé.
 
 reste plus qu'à cliquer sur Create service afin de créer le service, a la fin de la creation l'API redemarre (c'est extremement rapide) et redemande l'acces, le service ainsi que la base de données est crée.
 
-https://sensorthings.umrsas.inrae.fr/test/v1.1/infos infos sur le service
+**GET** https://sensorthings.umrsas.inrae.fr/test/v1.1/infos infos sur le service
 
 ### Les extensions :
 
