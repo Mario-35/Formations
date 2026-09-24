@@ -11,7 +11,7 @@
 
 ## <a name="json"></a>json :
 
-![https://sensorthings.umrsas.inrae.fr/test/v1.1/Things](../images/get.png) https://sensorthings.umrsas.inrae.fr/test/v1.1/Things 
+![https://sensorthings.umrsas.inrae.fr/test/v1.1/Things](../images/get.png) (https://sensorthings.umrsas.inrae.fr/test/v1.1/Things)
 
 Le format natif par default de l'API
 ```JSON
