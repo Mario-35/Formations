@@ -2,7 +2,7 @@
 
 ## Nous allons créer un flux de donnée
 
-### **Thing**
+**POST** [/v1.1/Things]
 ```JSON
 {
   "name": "Atelier SIST 2026",
@@ -13,7 +13,7 @@
 }
 ```
 
-### **Location**
+**POST** [/v1.1/Locations]
 ```JSON
 {
   "name": "Maison des Sciences",
@@ -29,7 +29,7 @@
 }
 ```
 
-### **Sensor**
+**POST** [/v1.1/Sensors]
 ```JSON
 {
   "name": "Capteur quelconque",
@@ -43,7 +43,7 @@
 }
 ```
 
-### **ObservedProperty**
+**POST** [/v1.1/ObservedProperties]
 ```JSON
 {
   "name": "Niveau mesuré",
@@ -60,7 +60,7 @@
 }
 ```
 
-### **Datastream**
+**POST** [/v1.1/Datastreams]
 
 ```JSON
 {
@@ -89,7 +89,7 @@
 
 ### La même chose en une opération
 
-### **Thing**
+**POST** [/v1.1/Things]
 ```JSON
 {
   "name": "Atelier SIST 2026",
