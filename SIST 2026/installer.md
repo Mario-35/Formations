@@ -28,9 +28,9 @@ une fois l'installation terminé il ne rest plus qu'à lancer :
 
 ## Première Utilisation
 
-https://sensorthings.umrsas.inrae.fr/test/help la documentation de l'API
+**GET** https://sensorthings.umrsas.inrae.fr/test/help la documentation de l'API
 
-https://sensorthings.umrsas.inrae.fr/test/infos infos sur l'API
+**GET** https://sensorthings.umrsas.inrae.fr/test/infos infos sur l'API
 
 Permet d'obtenir des infos sur l'api elle meme ainsi que la version de postgresSql et de posGis utilisé
 
@@ -49,7 +49,7 @@ Permet d'obtenir des infos sur l'api elle meme ainsi que la version de postgresS
 }
 ```
 
-https://sensorthings.umrsas.inrae.fr/test/state état de l'API
+**GET** https://sensorthings.umrsas.inrae.fr/test/state état de l'API
 - start : Demarrage en cours
 - createDb : Creation de base en cours
 - restart : Redemarrage en cours
