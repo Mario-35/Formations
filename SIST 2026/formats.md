@@ -68,11 +68,11 @@ sont possible
 
 ## <a name="txt"></a>txt :
 
-https://sensorthings.umrsas.inrae.fr/test/v1.1/Things?$resultFormat=txt renvoi le resultat au format texte
+**GET** https://sensorthings.umrsas.inrae.fr/test/v1.1/Things?$resultFormat=txt renvoi le resultat au format texte
 
 ## <a name="dataarray"></a>dataarray :
 
-https://sensorthings.umrsas.inrae.fr/test/v1.1/Things?$resultFormat=dataArray renvoi le resultat au format dataArray et pas seulement pour les observations.
+**GET** https://sensorthings.umrsas.inrae.fr/test/v1.1/Things?$resultFormat=dataArray renvoi le resultat au format dataArray et pas seulement pour les observations.
 
 ```JSON
 {
