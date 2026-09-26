@@ -1,6 +1,8 @@
 # <center>ATELIER SIST 2026</center>
 
-[Prérequis vidéos sur les API](https://nextcloud.inrae.fr/s/rSqAMnCetraJW3C)
+[Vidéo sur les API](https://nextcloud.inrae.fr/s/rSqAMnCetraJW3C)
+
+[Vidéo sur SensorThings](https://nextcloud.inrae.fr/s/kprEcBKeYQmbKSP)
 
 [Presentation SensorThings API(STA)](https://nextcloud.inrae.fr/apps/onlyoffice/254122508?filePath=%2FMyDrive%2FPresentation%20sist%202026.pptx)
 
